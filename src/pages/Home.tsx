@@ -9,7 +9,7 @@ const Home = () => {
   return (
     <div className="bg-white">
       {/* Hero Section */}
-      <section className="relative min-h-screen bg-gradient-to-br from-white via-blue-50 to-white  pt-5 md:pt-20 pb-10">
+      <section className="relative min-h-screen pt-5 md:pt-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-full flex items-center">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center w-full">
             <div className="space-y-8">
@@ -54,9 +54,9 @@ const Home = () => {
             </div>
 
             {/* Hero Illustration */}
-            <div className="relative h-96 md:h-full hidden md:block">
+            <div className="relative h-96 md:h-full ">
               <div className="absolute inset-0 bg-gradient-to-br from-blue-100 to-indigo-100 rounded-3xl"></div>
-              <div className="absolute inset-6 bg-white rounded-2xl shadow-lg border border-gray-100">
+              <div className="absolute inset-3 sm:inset-6 bg-white rounded-2xl shadow-lg border border-gray-100">
                 <img src='/imgs/hr-consulting.jpg' className='h-full w-full object-cover rounded-md'/>
               </div>
               <div className="absolute top-1/4 left-1/4 w-32 h-32 bg-blue-100 rounded-full opacity-75"></div>
@@ -67,7 +67,7 @@ const Home = () => {
       </section>
 
       {/* About Preview */}
-      <section className="py-10 bg-white border-b border-gray-100">
+      <section className="py-10 md:py-20 lg:py-1 bg-white border-b border-gray-100">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
             <div>
