@@ -55,7 +55,7 @@ const Careers = () => {
     <div className="bg-white">
       {/* Hero Section */}
       {/* Hero Section */}
-      <div className="relative h-[50vh] md:h-[70vh] bg-cover bg-center bg-no-repeat" style={{ backgroundImage: "url('https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://images.ctfassets.net/2pudprfttvy6/2ipMiLDRFV9rG1SboaZYf7/6b9d2fab6000094a9c08b9db6536328d/GettyImages-892091842.jpg?w=1500&h=680&q=60&fit=fill&f=faces&fm=jpg&fl=progressive&auto=format%2Ccompress&dpr=1&w=1000')" }}>
+      <div className="relative h-[50vh] md:h-[70vh] bg-cover bg-center bg-no-repeat" style={{ backgroundImage: "url('https://images.pond5.com/team-indian-office-employees-discussing-088720859_prevstill.jpeg')" }}>
            {/* Overlay */}
            <div className="absolute inset-0 bg-black opacity-50"></div>
      

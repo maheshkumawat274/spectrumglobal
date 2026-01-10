@@ -6,7 +6,7 @@ const AboutUs = () => {
   return (
     <div className="bg-white">
       {/* Hero Section */}
-      <div className="relative h-[50vh] md:h-[70vh] bg-cover bg-center bg-no-repeat" style={{ backgroundImage: "url('https://img.freepik.com/free-photo/creative-people-working-office_23-2147656715.jpg?semt=ais_hybrid&w=740&q=80')" }}>
+      <div className="relative h-[50vh] md:h-[70vh] bg-cover bg-center bg-no-repeat" style={{ backgroundImage: "url('https://www.indiaconnected.nl/app/uploads/2024/06/gettyimages-618674894-640x640-1.jpg')" }}>
            {/* Overlay */}
            <div className="absolute inset-0 bg-black opacity-50"></div>
      

@@ -7,7 +7,7 @@ const Services = () => {
   return (
     <div className="bg-white">
       {/* Hero Section */}
-      <div className="relative h-[50vh] md:h-[70vh] bg-cover bg-center bg-no-repeat" style={{ backgroundImage: "url('https://media.istockphoto.com/id/952679588/photo/business-information-and-infographics-concept.jpg?s=612x612&w=0&k=20&c=JloNehmz2tDD6luGrgj-SbEQNDbM5cJe-a-cQGfsNSo=')" }}>
+      <div className="relative h-[50vh] md:h-[70vh] bg-cover bg-center bg-no-repeat" style={{ backgroundImage: "url('https://images.unsplash.com/photo-1542744173-8e7e53415bb0?fit=max&fm=jpg&ixid=M3wzNTY3MHwwfDF8YWxsfHx8fHx8fHx8MTcxODIxNTg0OXw&ixlib=rb-4.0.3&q=75&utm_medium=referral&utm_source=vocal.media&w=720')" }}>
            {/* Overlay */}
            <div className="absolute inset-0 bg-black opacity-50"></div>
      

@@ -39,16 +39,16 @@ const Home = () => {
               {/* Trust Indicators */}
               <div className="grid grid-cols-3 gap-4 pt-4">
                 <div className="text-center">
-                  <div className="text-3xl font-bold text-[#2B73B3]">500+</div>
-                  <p className="text-sm text-gray-600">Successful Projects</p>
+                  <div className="text-3xl sm:text-4xl font-bold text-[#2B73B3]">500+</div>
+                  <p className="text-sm sm:text-md text-gray-600">Successful Projects</p>
                 </div>
                 <div className="text-center">
-                  <div className="text-3xl font-bold text-[#2B73B3]">50+</div>
-                  <p className="text-sm text-gray-600">Expert Consultants</p>
+                  <div className="text-3xl sm:text-4xl font-bold text-[#2B73B3]">50+</div>
+                  <p className="text-sm sm:text-md text-gray-600">Expert Consultants</p>
                 </div>
                 <div className="text-center">
-                  <div className="text-3xl font-bold text-[#2B73B3]">10Y+</div>
-                  <p className="text-sm text-gray-600">Industry Experience</p>
+                  <div className="text-3xl sm:text-4xl font-bold text-[#2B73B3]">10Y+</div>
+                  <p className="text-sm sm:text-md text-gray-600">Industry Experience</p>
                 </div>
               </div>
             </div>
@@ -57,7 +57,7 @@ const Home = () => {
             <div className="relative h-96 md:h-full ">
               <div className="absolute inset-0 bg-gradient-to-br from-blue-100 to-indigo-100 rounded-3xl"></div>
               <div className="absolute inset-3 sm:inset-6 bg-white rounded-2xl shadow-lg border border-gray-100">
-                <img src='/imgs/hr-consulting.jpg' className='h-full w-full object-cover rounded-md'/>
+                <img src='https://www.globalcoachcenter.com/wp-content/uploads/2024/05/Firefly-Business-workers-in-office-in-India-collaborating-in-conference-room-39423-1024x585.jpg' className='h-full w-full object-cover rounded-md'/>
               </div>
               <div className="absolute top-1/4 left-1/4 w-32 h-32 bg-blue-100 rounded-full opacity-75"></div>
               <div className="absolute bottom-1/4 right-1/4 w-40 h-40 bg-indigo-100 rounded-full opacity-50"></div>
@@ -67,7 +67,7 @@ const Home = () => {
       </section>
 
       {/* About Preview */}
-      <section className="py-10 md:py-20 lg:py-1 bg-white border-b border-gray-100">
+      <section className="py-10 md:py-20 lg:py-1 mb-10 bg-white border-b border-gray-100">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
             <div>
@@ -124,7 +124,7 @@ const Home = () => {
       </section>
 
       {/* Services Overview */}
-      <section id="services" className="py-10 bg-gray-50 border-b border-gray-100">
+      <section id="services" className="py-10 md:py-10 bg-gray-50 border-b border-gray-100">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <p className="text-[#2B73B3] font-semibold text-sm uppercase tracking-wide mb-2">
