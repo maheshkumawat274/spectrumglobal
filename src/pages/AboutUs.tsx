@@ -27,15 +27,16 @@ const AboutUs = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
             <div>
               <h2 className="text-4xl font-bold text-gray-900 mb-6">Our Story</h2>
-              <div className="space-y-4 text-gray-600 leading-relaxed">
+              <div className="space-y-4 text-gray-600 leading-relaxed text-lg">
                 <p>
-                  Founded over a decade ago, Spectrum Global emerged from a simple yet powerful belief: that organizations thrive when they align their people strategies with their business objectives.
+                  Spectrum Global is an HR Consulting Firm based out of Delhi/NCR. Backed with over 20+ years of experience we help companies in Hiring, Training & Retaining Talent. 
                 </p>
                 <p>
-                  What started as a boutique consulting firm has grown into a trusted partner for enterprises, mid-market companies, and scaling startups across multiple sectors. Our growth has been driven by our unwavering commitment to delivering measurable, practical results.
+                  Our Founder Mr. Anshul Kumar, has headed training & development at Regional & National levels with companies like MetLife, Deutsche Post Bank & headed HR with organisations like Ebony Retail & ERA Group. 
                 </p>
                 <p>
-                  Today, our team of experienced HR consultants, talent specialists, and organizational development experts work alongside forward-thinking leaders to transform how their organizations attract, develop, and retain exceptional talent.
+                  Since last 5 years, i.e. since the inception of Spectrum Global, we have acquired & serviced clients both in IT & Non IT Sectors like Manufacturing, Infrastructure Construction, Education, FMCG, Packaging,
+                  Hospitality, Media & many more
                 </p>
               </div>
             </div>
@@ -43,6 +44,13 @@ const AboutUs = () => {
               <img src='https://www.libertyspecialtymarkets.com/_r/1919x1919/static/2024-01/AboutUs_PartneringWithUs_1920x1080.jpg?t=1704451104' className='h-full w-full object-cover rounded-md
               '/>
             </div>
+          </div>
+          <div className='space-y-4 text-gray-600 leading-relaxed pt-3 text-lg'>
+            <p>We support HR leaders in any organisation in their scaling up mandates both at the executive levels as well as at Leadership hiring. The ease with which we help you hire a Machine Learning or an AI specialist, it is with same swiftness we help our clients in hiring of a Sales/Accounts person or a Bridge Design Engineer & we bring similar quality & process oriented approach in “C” level on boarding. </p>
+            <p>We partner with HR Stakeholders in taking forward their employee developmental goals. Our working sessions with employees are loaded with practical scenarios, case studies which we bring from our over two decades of working experience & also packed with fun activities & videos to keep the sessions lively & learning oriented. We have helped our clients in tackling issues around team bonding, customer service, low sales, belongingness of employees with organisation & launch of a new product or service.</p>
+            <p>
+              We also help organisations in HR Audit’s, Tweaking the policies & systems for a creating a more nurturing & healthy work culture, designing & implementing performance measuring criteria’s, helping in assessment centres etc. 
+            </p>
           </div>
         </div>
       </section>

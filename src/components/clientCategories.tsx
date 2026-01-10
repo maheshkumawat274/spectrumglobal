@@ -5,6 +5,59 @@ interface ClientCategory {
   description: string;
 }
 
+interface ClientLogo {
+  name: string;
+  logo: string;
+}
+
+const clientLogos: ClientLogo[] = [
+  {
+    name: "Client One",
+    logo: "/imgs/cadence-logo-black.png",
+  },
+  {
+    name: "Client Two",
+    logo: "/imgs/LT.png",
+  },
+  {
+    name: "Client Three",
+    logo: "/imgs/dishtv-logonew.webp",
+  },
+  {
+    name: "Client Four",
+    logo: "/imgs/JSW-logo-blue-logo.png",
+  },
+  {
+    name: "Client Five",
+    logo: "/imgs/stier-solution-logo.png",
+  },
+  {
+    name: "Client Six",
+    logo: "/imgs/ang.png",
+  },
+  {
+    name: "Client Four",
+    logo: "/imgs/EAPR.png",
+  },
+  {
+    name: "Client Five",
+    logo: "/imgs/ITC_Hotels_logo.svg.png",
+  },
+  {
+    name: "Client Six",
+    logo: "/imgs/Screenshot 2026-01-10 170540.png",
+  },
+   {
+    name: "Client Six",
+    logo: "/imgs/babapng.png",
+  },
+   {
+    name: "Client Six",
+    logo: "/imgs/Screenshot 2026-01-10 171143.png",
+  },
+
+];
+
 const clientCategories: ClientCategory[] = [
   {
     title: "Corporate & Professional Services",
@@ -85,12 +138,12 @@ const OurEsteemedClients: React.FC = () => {
         {/* Logo Placeholder */}
         <div className="mt-14">
           <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-6 items-center opacity-70">
-            {[...Array(6)].map((_, i) => (
+            {clientLogos.map((client, i) => (
               <div
                 key={i}
                 className="h-16 rounded-lg border border-dashed border-gray-300 flex items-center justify-center text-sm text-gray-400"
               >
-                Client Logo
+                <img src={client.logo} alt={client.name} className="h-full w-full object-contain" />
               </div>
             ))}
           </div>
