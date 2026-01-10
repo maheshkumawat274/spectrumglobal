@@ -55,12 +55,9 @@ const Home = () => {
 
             {/* Hero Illustration */}
             <div className="relative h-96 md:h-full ">
-              <div className="absolute inset-0 bg-gradient-to-br from-blue-100 to-indigo-100 rounded-3xl"></div>
               <div className="absolute inset-3 sm:inset-6 bg-white rounded-2xl shadow-lg border border-gray-100">
                 <img src='https://www.globalcoachcenter.com/wp-content/uploads/2024/05/Firefly-Business-workers-in-office-in-India-collaborating-in-conference-room-39423-1024x585.jpg' className='h-full w-full object-cover rounded-md'/>
               </div>
-              <div className="absolute top-1/4 left-1/4 w-32 h-32 bg-blue-100 rounded-full opacity-75"></div>
-              <div className="absolute bottom-1/4 right-1/4 w-40 h-40 bg-indigo-100 rounded-full opacity-50"></div>
             </div>
           </div>
         </div>
@@ -427,7 +424,7 @@ const Home = () => {
             </div>
 
             <div className="h-96 rounded-2xl">
-              <img src="/imgs/jointeam.webp" className="h-full w-full object-contain rounded-md mx-1 sm:mx-18" />
+              <img src="https://images.pond5.com/team-indian-office-employees-discussing-088720859_prevstill.jpeg" className="h-full w-full object-contain rounded-md mx-1 sm:mx-18" />
             </div>
           </div>
         </div>
