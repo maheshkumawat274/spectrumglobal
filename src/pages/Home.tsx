@@ -424,7 +424,7 @@ const Home = () => {
             </div>
 
             <div className="h-96 rounded-2xl">
-              <img src="https://images.pond5.com/team-indian-office-employees-discussing-088720859_prevstill.jpeg" className="h-full w-full object-contain rounded-md mx-1 sm:mx-18" />
+              <img src="https://images.pond5.com/team-indian-office-employees-discussing-088720859_prevstill.jpeg" className="h-full w-full object-cover rounded-md mx-1 sm:mx-18" />
             </div>
           </div>
         </div>
