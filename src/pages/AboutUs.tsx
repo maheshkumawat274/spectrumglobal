@@ -28,16 +28,14 @@ const AboutUs = () => {
             <div>
               <h2 className="text-4xl font-bold text-gray-900 mb-6">Our Story</h2>
               <div className="space-y-4 text-gray-600 leading-relaxed text-lg">
+                
                 <p>
-                  Spectrum Global is an HR Consulting Firm based out of Delhi/NCR. Backed with over 20+ years of experience we help companies in Hiring, Training & Retaining Talent. 
+                  Our Founder Mr. Anshul Kumar, brings over two decades of hands-on experience in shaping talent, leaders, and organizations that are built to scale.
                 </p>
                 <p>
-                  Our Founder Mr. Anshul Kumar, has headed training & development at Regional & National levels with companies like MetLife, Deutsche Post Bank & headed HR with organisations like Ebony Retail & ERA Group. 
+                 Having led HR and learning functions across industries with organizations such as MetLife, Deutsche Post Bank, Ebony Retail, and ERA Group, he understands what it takes to build teams that perform in fast-changing, competitive environments. His work is driven by a sharp focus on execution, accountability, and real-world impact.
                 </p>
-                <p>
-                  Since last 5 years, i.e. since the inception of Spectrum Global, we have acquired & serviced clients both in IT & Non IT Sectors like Manufacturing, Infrastructure Construction, Education, FMCG, Packaging,
-                  Hospitality, Media & many more
-                </p>
+                
               </div>
             </div>
             <div className="h-96 bg-gradient-to-br from-blue-100 to-indigo-100 rounded-2xl">
@@ -46,11 +44,11 @@ const AboutUs = () => {
             </div>
           </div>
           <div className='space-y-4 text-gray-600 leading-relaxed pt-3 text-lg'>
-            <p>We support HR leaders in any organisation in their scaling up mandates both at the executive levels as well as at Leadership hiring. The ease with which we help you hire a Machine Learning or an AI specialist, it is with same swiftness we help our clients in hiring of a Sales/Accounts person or a Bridge Design Engineer & we bring similar quality & process oriented approach in “C” level on boarding. </p>
-            <p>We partner with HR Stakeholders in taking forward their employee developmental goals. Our working sessions with employees are loaded with practical scenarios, case studies which we bring from our over two decades of working experience & also packed with fun activities & videos to keep the sessions lively & learning oriented. We have helped our clients in tackling issues around team bonding, customer service, low sales, belongingness of employees with organisation & launch of a new product or service.</p>
-            <p>
-              We also help organisations in HR Audit’s, Tweaking the policies & systems for a creating a more nurturing & healthy work culture, designing & implementing performance measuring criteria’s, helping in assessment centres etc. 
-            </p>
+           <p>He founded Spectrum Global to challenge traditional HR consulting—by combining strategic thinking with speed, ownership, and outcome-driven delivery. Today, the firm partners with organizations that are serious about growth, leadership strength, and culture as a competitive advantage.</p>
+           <h2 className='text-xl font-semibold'>
+           Leadership Philosophy
+           </h2>
+           <p>Talent is not potential—it is performance over time. When people are challenged, trusted, and developed with intent, organizations don’t just grow, they lead.</p>
           </div>
         </div>
       </section>
