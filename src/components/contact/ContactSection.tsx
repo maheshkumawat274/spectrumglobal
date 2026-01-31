@@ -1,4 +1,8 @@
 import React, { useState } from "react";
+import { apiPost } from "../../services/api";
+
+
+
 import {
   Mail,
   Phone,
@@ -24,6 +28,11 @@ const ContactSection: React.FC = () => {
     message: "",
   });
 
+  type ApiResponse = {
+  status: "success" | "error";
+  message: string;
+};
+
   const [submitted, setSubmitted] = useState(false);
 
   const handleChange = (
@@ -40,10 +49,27 @@ const ContactSection: React.FC = () => {
     setForm({ ...form, [name]: value });
   };
 
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-    setSubmitted(true);
-  };
+  const handleSubmit = async (e: React.FormEvent) => {
+  e.preventDefault();
+
+  try {
+    const res = await apiPost<ApiResponse>("save_contact.php", form);
+
+    if (res.status === "success") {
+      setSubmitted(true);
+      setForm({
+        name: "",
+        email: "",
+        phone: "",
+        message: "",
+      });
+    } else {
+      alert(res.message);
+    }
+  } catch (err: any) {
+    alert(err.message || "Server error");
+  }
+};
 
   return (
     <section className="relative py-10 bg-gradient-to-b from-gray-50 to-white">
@@ -91,13 +117,13 @@ const ContactSection: React.FC = () => {
                   <div>
                     <p className="font-medium">Phone</p>
                     <a href="tel:9312567832" className="block text-blue-100">
-                      Mobile: 9312567832
+                      Mobile: +91-9312567832
                     </a>
                     <a
-                      href="tel:+911204104295"
+                      href="tel:+917042370046"
                       className="block text-blue-100"
                     >
-                      Landline: +91-120-4104295
+                      Mobile: +91-7042370046
                     </a>
                   </div>
                 </div>

@@ -1,6 +1,7 @@
 import { CheckCircle, Users, Target, Lightbulb } from 'lucide-react';
 import Card from '../components/ui/Card';
 import Button from '../components/ui/button';
+import { Link } from 'react-router-dom';
 
 const AboutUs = () => {
   return (
@@ -28,27 +29,26 @@ const AboutUs = () => {
             <div>
               <h2 className="text-4xl font-bold text-gray-900 mb-6">Our Story</h2>
               <div className="space-y-4 text-gray-600 leading-relaxed text-lg">
-                
                 <p>
                   Our Founder Mr. Anshul Kumar, brings over two decades of hands-on experience in shaping talent, leaders, and organizations that are built to scale.
                 </p>
                 <p>
-                 Having led HR and learning functions across industries with organizations such as MetLife, Deutsche Post Bank, Ebony Retail, and ERA Group, he understands what it takes to build teams that perform in fast-changing, competitive environments. His work is driven by a sharp focus on execution, accountability, and real-world impact.
+                  Having led HR and learning functions across industries with organizations such as MetLife, Deutsche Post Bank, Ebony Retail, and ERA Group, he understands what it takes to build teams that perform in fast-changing, competitive environments. His work is driven by a sharp focus on execution, accountability, and real-world impact.
                 </p>
                 
               </div>
             </div>
             <div className="h-96 bg-gradient-to-br from-blue-100 to-indigo-100 rounded-2xl">
-              <img src='https://www.libertyspecialtymarkets.com/_r/1919x1919/static/2024-01/AboutUs_PartneringWithUs_1920x1080.jpg?t=1704451104' className='h-full w-full object-cover rounded-md
+              <img src='/imgs/training4.jpeg' className='h-full w-full object-cover rounded-md
               '/>
             </div>
           </div>
           <div className='space-y-4 text-gray-600 leading-relaxed pt-3 text-lg'>
-           <p>He founded Spectrum Global to challenge traditional HR consulting—by combining strategic thinking with speed, ownership, and outcome-driven delivery. Today, the firm partners with organizations that are serious about growth, leadership strength, and culture as a competitive advantage.</p>
-           <h2 className='text-xl font-semibold'>
-           Leadership Philosophy
-           </h2>
-           <p>Talent is not potential—it is performance over time. When people are challenged, trusted, and developed with intent, organizations don’t just grow, they lead.</p>
+            <p>He founded Spectrum Global to challenge traditional HR consulting—by combining strategic thinking with speed, ownership, and outcome-driven delivery. Today, the firm partners with organizations that are serious about growth, leadership strength, and culture as a competitive advantage.</p>
+            <h1 className='text-xl font-semibold'>Leadership Philosophy</h1>
+            <p>
+              “Talent is not potential—it is performance over time. When people are challenged, trusted, and developed with intent, organizations don’t just grow, they lead.”
+            </p>
           </div>
         </div>
       </section>
@@ -269,7 +269,7 @@ const AboutUs = () => {
             Let's discuss how we can drive HR excellence in your organization.
           </p>
           <Button variant="primary" size="lg" className="bg-white text-[#2B73B3] hover:bg-gray-100">
-            Schedule a Consultation
+            <Link to="/contact-us">Schedule a Consultation</Link>
           </Button>
         </div>
       </section>

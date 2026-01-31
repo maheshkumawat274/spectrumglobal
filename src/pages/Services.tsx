@@ -41,7 +41,7 @@ const Services = () => {
               </p>
             </div>
             <div className="h-96 bg-gradient-to-br from-blue-100 to-indigo-100 rounded-2xl">
-              <img src="https://d30903flf7mc19.cloudfront.net/wp-content/uploads/2024/02/21103724/recruitment-with-talent-acquisition-analytics.webp" className='h-full w-full object-cover rounded-md'/>
+              <img src="/imgs/training4.jpeg" className='h-full w-full object-cover rounded-md'/>
             </div>
           </div>
 
@@ -120,7 +120,7 @@ const Services = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center mb-16">
             <div className="h-96 bg-gradient-to-br from-green-100 to-emerald-100 rounded-2xl">
-              <img src='https://engagedly.com/wp-content/uploads/2023/10/Training-and-Development.webp' className='w-full h-full object-cover rounded-md'/>
+              <img src='/imgs/training5.jpeg' className='w-full h-full object-cover rounded-md'/>
             </div>
             <div>
               <div className="w-16 h-16 bg-green-100 rounded-2xl flex items-center justify-center mb-6">

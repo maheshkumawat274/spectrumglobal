@@ -22,7 +22,7 @@ export function App() {
             <Route path="/" element={<Home />} />
             <Route path="/about-us" element={<AboutUs />} />
             <Route path="/services" element={<Services />} />
-            <Route path="/careers" element={<Careers />} />
+            <Route path="/career" element={<Careers />} />
             <Route path="/contact-us" element={<ContactUs />} />
           </Routes>
         </main>

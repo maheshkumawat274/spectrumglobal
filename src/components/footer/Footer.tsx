@@ -41,8 +41,8 @@ const Footer = () => {
                 </Link>
               </li>
               <li>
-                <Link to="/careers" className="text-gray-400 hover:text-white transition-colors">
-                  Careers
+                <Link to="/career" className="text-gray-400 hover:text-white transition-colors">
+                  Career
                 </Link>
               </li>
               <li>
@@ -78,7 +78,7 @@ const Footer = () => {
           {/* Contact */}
           <div>
             <h3 className="text-white font-semibold mb-4">Contact</h3>
-          
+
             <div className="space-y-3 text-sm">
               {/* Email */}
               <div className="flex items-start space-x-3">
@@ -90,7 +90,7 @@ const Footer = () => {
                   support@spectrumglobal.in
                 </a>
               </div>
-          
+
               {/* Mobile */}
               <div className="flex items-start space-x-3">
                 <Phone className="w-4 h-4 text-blue-400 flex-shrink-0 mt-1" />
@@ -101,18 +101,18 @@ const Footer = () => {
                   Mobile: 9312567832
                 </a>
               </div>
-          
+
               {/* Landline */}
               <div className="flex items-start space-x-3">
                 <Phone className="w-4 h-4 text-blue-400 flex-shrink-0 mt-1" />
                 <a
-                  href="tel:+911204104295"
+                  href="tel:+917042370046"
                   className="text-gray-400 hover:text-white transition-colors"
                 >
-                  Landline: +91-120-4104295
+                  Mobile: +91-7042370046
                 </a>
               </div>
-          
+
               {/* Registered Address */}
               <div className="flex items-start space-x-3">
                 <MapPin className="w-4 h-4 text-blue-400 flex-shrink-0 mt-1" />
@@ -122,7 +122,7 @@ const Footer = () => {
                   D-113, Sector-36, Greater Noida – 201310
                 </span>
               </div>
-          
+
               {/* Working Address */}
               <div className="flex items-start space-x-3">
                 <MapPin className="w-4 h-4 text-blue-400 flex-shrink-0 mt-1" />
@@ -140,9 +140,11 @@ const Footer = () => {
         {/* Divider */}
         <div className="border-t border-gray-800 py-8">
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
-            <p className="text-gray-400 text-sm">
+            <p className="text-gray-400 text-sm text-center md:text-left">
               © {currentYear} Vertex HR Consulting. All rights reserved.
+              <br className="md:hidden" />
             </p>
+
             <div className="flex items-center space-x-6">
               <a href="#" className="text-gray-400 hover:text-white transition-colors">
                 <Linkedin className="w-5 h-5" />
